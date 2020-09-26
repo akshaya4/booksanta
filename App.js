@@ -2,10 +2,11 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import {createAppContainer, createSwitchNavigator} from "react-navigation"
-import LoginScreen from "./screens/Login"
-import DonationScreen from './screens/Donation';
-import RequestScreen from "./screens/Request"
 import { createBottomTabNavigator } from 'react-navigation-tabs'
+import LoginScreen from "Login"
+import DonationScreen from 'Donation';
+import RequestScreen from "Request"
+
 
 export default function App() {
   return (
